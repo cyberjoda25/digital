@@ -1,0 +1,22 @@
+apiVersion: v1
+data:
+  as400.socms015.rutaPath: /QSYS.LIB/ARCHISYS.LIB/BSOCMS015.PGM
+  flag.healthcheck: "false"
+kind: ConfigMap
+metadata:
+  creationTimestamp: "2023-02-23T16:14:44Z"
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:data:
+        .: {}
+        f:as400.socms015.rutaPath: {}
+        f:flag.healthcheck: {}
+    manager: Mozilla
+    operation: Update
+    time: "2023-04-18T00:52:48Z"
+  name: msd-cli-gdd-informacion-individual
+  namespace: dinersclub-migracion-cal
+  resourceVersion: "716179979"
+  uid: f9f68bcf-f1b2-450f-a2d9-299fd9287ef3

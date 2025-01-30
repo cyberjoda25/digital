@@ -1,0 +1,9 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: msd-cli-gdd-informacion-individual
+  namespace: dinersclub-migracion-dev
+data:
+  as400.bsocms015.rutaPath: /QSYS.LIB/LIBOBJ.LIB/BSOCMS015.PGM
+  as400.socms015.rutaPath: /QSYS.LIB/LIBOBJ.LIB/SOCMS015.PGM
+  flag.healthcheck: 'false'
